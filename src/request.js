@@ -165,7 +165,7 @@ $request.prototype.open = function(verb, uri, params)
 {
 	var self = this;
 
-	this.getXMLHttpRequest().open(verb, this.prepareURI(uri));
+	this.getXMLHttpRequest().open(verb, this.prepareURI(uri, params));
 
 	this.getXMLHttpRequest().setRequestHeader('Accept', 'application/json');
 

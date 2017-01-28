@@ -57,11 +57,6 @@ $request.put = function(uri, data, params)
 
 	request.open('PUT', uri, params);
 
-	if (Object.prototype.toString.call(data) === '[object Object]')
-	{
-		data = request.serializable(data);
-	}
-
 	request.getXMLHttpRequest().send(data);
 
 	return request;

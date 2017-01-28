@@ -3,14 +3,27 @@
 var $request;
 
 /**
- * Конструктор объекта
+ * Конструктор компонента
  *
  * @access  public
  * @return  void
+ *
+ * @see     https://developer.mozilla.org/ru/docs/Web/API/XMLHttpRequest
  */
 $request = function()
 {
 	this.XMLHttpRequest = new XMLHttpRequest();
+};
+
+/**
+ * Получение версии компонента
+ *
+ * @access  public
+ * @return  string
+ */
+$request.getVersion = function()
+{
+	return '1.0.2';
 };
 
 /**
@@ -249,8 +262,6 @@ $request.prototype.open = function(verb, uri, params)
  *
  * @access  public
  * @return  object
- *
- * @see     https://developer.mozilla.org/ru/docs/Web/API/XMLHttpRequest
  */
 $request.prototype.getXMLHttpRequest = function()
 {

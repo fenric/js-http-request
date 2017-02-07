@@ -1,5 +1,14 @@
 'use strict';
 
+/**
+ * It is free open-source software released under the MIT License.
+ *
+ * @author Anatoly Fenric <a.fenric@gmail.com>
+ * @copyright Copyright (c) 2017 by Fenric Laboratory
+ * @license https://raw.githubusercontent.com/fenric/js.request/master/LICENSE
+ * @link https://github.com/fenric/js.request
+ */
+
 var $request;
 
 /**

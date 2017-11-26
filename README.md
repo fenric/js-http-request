@@ -106,13 +106,13 @@ $request.get('/api/publications/',
 		// some code
 	},
 
-	// When the server returns a status code >= 400 or <= 499
+	// When the server returns a status code between 400 and 499
 	clienterror: function(response, event)
 	{
 		// some code
 	},
 
-	// When the server returns a status code >= 500 or <= 599
+	// When the server returns a status code between 500 and 599
 	servererror: function(response, event)
 	{
 		// some code

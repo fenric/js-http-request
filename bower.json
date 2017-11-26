@@ -1,6 +1,6 @@
 {
 	"license": "MIT",
-	"name": "fenric/js-http-request",
+	"name": "fenric-js-http-request",
 	"description": "Lite XMLHttpRequest wrapper.",
 	"homepage": "https://github.com/fenric/js-http-request",
 	"main": "src/request.js",

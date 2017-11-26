@@ -3,10 +3,10 @@
 /**
  * It is free open-source software released under the MIT License.
  *
- * @author Anatoly Fenric <a.fenric@gmail.com>
+ * @author Anatoly Fenric <anatoly.fenric@gmail.com>
  * @copyright Copyright (c) 2017 by Fenric Laboratory
- * @license https://raw.githubusercontent.com/fenric/request/master/LICENSE
- * @link https://github.com/fenric/request
+ * @license https://raw.githubusercontent.com/fenric/js-http-request/master/LICENSE
+ * @link https://github.com/fenric/js-http-request
  */
 
 var $request;

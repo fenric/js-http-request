@@ -78,3 +78,51 @@ if (form instanceof Node)
 }
 ```
 
+### Other request parameters
+```
+$request.get('/api/publications/',
+{
+	// @see https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequestEventTarget/onabort
+	onabort: function(response, event)
+	{
+		// some code
+	},
+
+	// @see https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequestEventTarget/onerror
+	onerror: function(response, event)
+	{
+		// some code
+	},
+
+	// @see https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequestEventTarget/onload
+	onload: function(response, event)
+	{
+		// some code
+	},
+
+	// @see https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequestEventTarget/onprogress
+	onprogress: function(response, event)
+	{
+		// some code
+	},
+
+	// When the server returns a status code >= 400 or <= 499
+	clienterror: function(response, event)
+	{
+		// some code
+	},
+
+	// When the server returns a status code >= 500 or <= 599
+	servererror: function(response, event)
+	{
+		// some code
+	},
+
+	// When the server returns a status code 200, 201 or 202
+	success: function(response, event)
+	{
+		// some code
+	},
+});
+```
+

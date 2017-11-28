@@ -267,7 +267,7 @@ $request.prototype.open = function(verb, uri, params)
 {
 	var self = this;
 
-	this.getXMLHttpRequest().open(verb, this.prepareURI(uri, params));
+	this.getXMLHttpRequest().open(verb, $request.prepareURI(uri, params));
 	this.getXMLHttpRequest().setRequestHeader('Accept', 'application/json, application/xml, text/plain, text/html');
 	this.getXMLHttpRequest().setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 	this.getXMLHttpRequest().setRequestHeader('X-Requested-With', 'XMLHttpRequest');

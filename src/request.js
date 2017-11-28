@@ -366,5 +366,5 @@ $request.prototype.open = function(verb, url, params)
 			}
 		};
 
-	}(this);
+	})(this);
 };
